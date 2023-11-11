@@ -4,8 +4,8 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 	<title></title>
 	<meta name="generator" content="LibreOffice 7.3.1.3 (MacOSX)"/>
-	<meta name="created" content="2023-11-10T15:29:09.679711193"/>
-	<meta name="changed" content="2023-11-10T15:53:19.526154326"/>
+	<meta name="created" content="2023-11-11T10:18:34.881796694"/>
+	<meta name="changed" content="2023-11-11T10:38:21.199067662"/>
 	<style type="text/css">
 		@page { size: 8.5in 11in; margin: 0.79in }
 		p { line-height: 115%; margin-bottom: 0.1in; background: transparent }
@@ -13,29 +13,39 @@
 		h1.western { font-family: "Liberation Serif", serif; font-size: 24pt; font-weight: bold }
 		h1.cjk { font-family: "Songti SC"; font-size: 24pt; font-weight: bold }
 		h1.ctl { font-family: "Arial Unicode MS"; font-size: 24pt; font-weight: bold }
+		h5 { margin-top: 0.08in; margin-bottom: 0.04in; background: transparent; page-break-after: avoid }
+		h5.western { font-family: "Liberation Serif", serif; font-size: 10pt; font-weight: bold }
+		h5.cjk { font-family: "Songti SC"; font-size: 10pt; font-weight: bold }
+		h5.ctl { font-family: "Arial Unicode MS"; font-size: 10pt; font-weight: bold }
+		h4 { margin-top: 0.08in; margin-bottom: 0.08in; background: transparent; page-break-after: avoid }
+		h4.western { font-family: "Liberation Serif", serif; font-size: 12pt; font-weight: bold }
+		h4.cjk { font-family: "Songti SC"; font-size: 12pt; font-weight: bold }
+		h4.ctl { font-family: "Arial Unicode MS"; font-size: 12pt; font-weight: bold }
 		h2 { margin-top: 0.14in; margin-bottom: 0.08in; background: transparent; page-break-after: avoid }
 		h2.western { font-family: "Liberation Serif", serif; font-size: 18pt; font-weight: bold }
 		h2.cjk { font-family: "Songti SC"; font-size: 18pt; font-weight: bold }
 		h2.ctl { font-family: "Arial Unicode MS"; font-size: 18pt; font-weight: bold }
-		pre { font-family: "Liberation Mono", monospace; font-size: 10pt; background: transparent }
 		h3 { margin-top: 0.1in; margin-bottom: 0.08in; background: transparent; page-break-after: avoid }
 		h3.western { font-family: "Liberation Serif", serif; font-size: 14pt; font-weight: bold }
 		h3.cjk { font-family: "Songti SC"; font-size: 14pt; font-weight: bold }
 		h3.ctl { font-family: "Arial Unicode MS"; font-size: 14pt; font-weight: bold }
+		pre { font-family: "Liberation Mono", monospace; font-size: 10pt; background: transparent }
 		a:link { color: #000080; so-language: zxx; text-decoration: underline }
 		strong { font-weight: bold }
 		code { font-family: "Liberation Mono", monospace }
 	</style>
 </head>
 <body lang="en-US" link="#000080" vlink="#800000" dir="ltr"><h1 class="western">
-<a href="https://github.com/9MMMinor/RaspberryPiPicoGFX#raspberrypipicogfx">RaspberryPiPicoGFX</a></h1>
+<a href="https://github.com/9MMMinor/RaspberryPiPicoGFX/blob/main/README.md#raspberrypipicogfx">RaspberryPiPicoGFX</a></h1>
 <p>Micropython graphics (GFX) and fonts for ILI9225 display for
 Raspberry Pi Pico</p>
-<h3 class="western">TFT_22_ILI9225.py</h3>
-<h3 class="western">adafruit_gfx.py</h3>
-<h3 class="western">gfxFont.py</h3>
-<h3 class="western">glcFont.py</h3>
-<h1 class="western"><a name="user-content-python-code"></a><a href="https://github.com/9MMMinor/RaspberryPiPicoGFX#python-code">Python
+<h5 class="western"><a name="user-content-httpsgithubcom9mmminorraspberrypipicogfx"></a>
+<a href="https://github.com/9MMMinor/RaspberryPiPicoGFX">https://github.com/9MMMinor/RaspberryPiPicoGFX</a></h5>
+<h4 class="western"><a name="user-content-tft_22_ili9225py"></a><a href="https://github.com/9MMMinor/RaspberryPiPicoGFX/blob/main/README.md#tft_22_ili9225py">TFT_22_ILI9225.py</a></h4>
+<h4 class="western"><a name="user-content-adafruit_gfxpy"></a><a href="https://github.com/9MMMinor/RaspberryPiPicoGFX/blob/main/README.md#adafruit_gfxpy">adafruit_gfx.py</a></h4>
+<h4 class="western"><a name="user-content-gfxfontpy"></a><a href="https://github.com/9MMMinor/RaspberryPiPicoGFX/blob/main/README.md#gfxfontpy">gfxFont.py</a></h4>
+<h4 class="western"><a name="user-content-glcfontpy"></a><a href="https://github.com/9MMMinor/RaspberryPiPicoGFX/blob/main/README.md#glcfontpy">glcFont.py</a></h4>
+<h1 class="western"><a name="user-content-python-code"></a><a href="https://github.com/9MMMinor/RaspberryPiPicoGFX/blob/main/README.md#python-code">Python
 code</a></h1>
 <p>The following code has been tested on Raspberry Pi Pico W. With
 the exception of the examples, all .py modules were saved to the
@@ -55,23 +65,23 @@ drawGFXChar(), found in TFT_22_ILI9225.cpp (see github.com/Nkawu,
 above), in which character glyphs are separated from the character
 bitmaps. These are the font structures used in Adafruit_GFX 1.1 and
 later.</p>
-<h2 class="western"><a name="user-content-introduction"></a><a href="https://github.com/9MMMinor/RaspberryPiPicoGFX#introduction">Introduction</a></h2>
+<h2 class="western"><a name="user-content-introduction"></a><a href="https://github.com/9MMMinor/RaspberryPiPicoGFX/blob/main/README.md#introduction">Introduction</a></h2>
 <p>This is a library for the ILI9225 based 2.2&quot; 176x220 TFT LCD
 shields commonly found on eBay, originally forked from the
 screen_4D_22_library library. The ability to use GLCD fonts has been
 added and the syntax has been changed to match the Adafruit libraries
 somewhat.</p>
-<h2 class="western"><a name="user-content-documentation"></a><a href="https://github.com/9MMMinor/RaspberryPiPicoGFX#documentation">Documentation</a></h2>
+<h2 class="western"><a name="user-content-documentation"></a><a href="https://github.com/9MMMinor/RaspberryPiPicoGFX/blob/main/README.md#documentation">Documentation</a></h2>
 <p>Documentation describing physical module connections can be found
 in the repo's <strong><a href="https://github.com/Nkawu/TFT_22_ILI9225/wiki">Wiki</a></strong></p>
-<h2 class="western"><a name="user-content-classes-and-methods"></a><a href="https://github.com/9MMMinor/RaspberryPiPicoGFX#classes-and-methods">Classes
+<h2 class="western"><a name="user-content-classes-and-methods"></a><a href="https://github.com/9MMMinor/RaspberryPiPicoGFX/blob/main/README.md#classes-and-methods">Classes
 and methods</a></h2>
-<pre><code>class TFT_22_ILI9225()</code>
-<code>    spi_object = SPI(0))</code>
-<code>    lcd_object = TFT_22_ILI9225(spi_object, dc=Pin(15), cs=Pin(17), rst=Pin(14))</code>
-
-<code>Methods</code>
-<code>    reset()</code>
+<h3 class="western"><a name="user-content-class-tft_22_ili9225"></a><a href="https://github.com/9MMMinor/RaspberryPiPicoGFX/blob/main/README.md#class-tft_22_ili9225">class
+TFT_22_ILI9225()</a></h3>
+<pre><code>    spi_object = SPI(0))</code>
+<code>    lcd_object = TFT_22_ILI9225(spi_object, dc=Pin(15), cs=Pin(17), rst=Pin(14))</code></pre><h3 class="western">
+<a name="user-content-methods"></a><a href="https://github.com/9MMMinor/RaspberryPiPicoGFX/blob/main/README.md#methods">Methods</a></h3>
+<pre><code>    reset()</code>
 <code>        perform a reset to the ILI9225 chip</code>
 <code>    clear()</code>
 <code>        fill the entire screen with black pixels</code>
@@ -79,8 +89,7 @@ and methods</a></h2>
 <code>        switch the display on (flag=True) or off (flag=False)</code>
 <code>    setOrientation(orientation)</code>
 <code>        set the coordinate orientation of the screen:</code>
-<code>        0=portrait, 1=right rotated landscape, 2=reverse portrait,</code>
-<code>		3=left rotated landscape</code>
+<code>        0=portrait, 1=right rotated landscape, 2=reverse portrait, 3=left rotated landscape</code>
 <code>    getOrientation()</code>
 <code>        returns the current orientation</code>
 <code>    setBackgroundColor(color)</code>
@@ -92,7 +101,7 @@ and methods</a></h2>
 <code>    maxY()</code>
 <code>        returns maximum screen Y dimension</code>
 <code>        </code>
-<code>The folowing methods are typically screen driver prim</code><code>i</code><code>tives passed to the GFX class:</code>
+<code>The folowing methods are typically screen driver primatives passed to the GFX class:</code>
 <code>     </code>
 <code>    drawPixel(x, y, color)</code>
 <code>        draw the pixel at (x,y) with &quot;color&quot;</code>
@@ -101,29 +110,24 @@ and methods</a></h2>
 <code>    fastHline(x, y, width, color)</code>
 <code>        draws horizontal &quot;color&quot;ed line of width            </code>
 <code>    fastVline(x, y, height, color)</code>
-<code>        draws vertical &quot;color&quot;ed line of height</code>
-
-
-<code>class GFX()</code>
-<code>    gfx_object = GFX(width, height, pixel,</code>
-<code>        hline=Hline,        # A function to quickly draw a horizontal</code>
-<code>					line on the display</code>
-<code>        vline=Vline,        # A function to quickly draw a vertical</code>
-<code>					line on the display</code>
+<code>        draws vertical &quot;color&quot;ed line of height</code></pre><h3 class="western">
+<a name="user-content-class-gfx"></a><a href="https://github.com/9MMMinor/RaspberryPiPicoGFX/blob/main/README.md#class-gfx">class
+GFX()</a></h3>
+<pre><code>    gfx_object = GFX(width, height, pixel,</code>
+<code>        hline=Hline,        # A function to quickly draw a horizontal line on the display</code>
+<code>        vline=Vline,        # A function to quickly draw a vertical line on the display</code>
 <code>        fill_rect=fillRect, # A function to quickly draw a solid rectangle</code>
 <code>        text=drawText,      # A function to quickly place text on the screen</code>
 <code>        font=Font           # Alternative dict font</code>
 <code>        )</code>
 <code>    where &quot;width&quot; is the drawing area width in pixels,</code>
 <code>    &quot;height&quot; is the drawing area height in pixels,</code>
-<code>    and &quot;pixel&quot; is a function to call when a pixel is drawn on the display (see 	driver methods above).</code>
-
-<code>Methods</code>
-<code>    pixel(x, y, color)</code>
+<code>    and &quot;pixel&quot; is a function to call when a pixel is drawn on the display (see driver methods above).</code></pre><h3 class="western">
+<a name="user-content-methods-1"></a><a href="https://github.com/9MMMinor/RaspberryPiPicoGFX/blob/main/README.md#methods-1">Methods</a></h3>
+<pre><code>    pixel(x, y, color)</code>
 <code>        draw a pixel at x,y</code>
 <code>    rect(x, y, width, heigth, color)</code>
-<code>        draw a single pixel wide rectangle of width x height with (x,y)</code>
-<code>		at the bottom left</code>
+<code>        draw a single pixel wide rectangle of width x height with (x,y) at the bottom left</code>
 <code>    fill_rect(x, y, width, height, color)</code>
 <code>        draw a filled rectangle of width x height with (x,y) at the bottom left</code>
 <code>    hline(x, y, width, color)</code>
@@ -133,30 +137,28 @@ and methods</a></h2>
 <code>    line(x0, y0, x1, y1, color)</code>
 <code>        draw a single pixel wide line starting at x0, y0 and ending at x1, y1</code>
 <code>    circle(x0, y0, radius, color)</code>
-<code>        draw a single pixel wide circle with center at x0, y0 and</code>
-<code>	   the specified radius</code>
+<code>        draw a single pixel wide circle with center at x0, y0 and the specified radius</code>
 <code>    fill_circle(x0, y0, radius, color)</code>
 <code>        draw a filled circle with center at x0, y0 and the specified radius</code>
 <code>    triangle(x0, y0, x1, y1, x2, y2, color)</code>
-<code>        draw a single pixel wide triangle around the points</code>
-<code>	   (x0, y0), (x1, y1), and (x2, y2)</code>
+<code>        draw a single pixel wide triangle around the points (x0, y0), (x1, y1),</code>
+<code>		and (x2, y2)</code>
 <code>    fill_triangle(x0, y0, x1, y1, x2, y2, color)</code>
 <code>        draw a filled triangle around the points (x0, y0), (x1, y1), and (x2, y2)</code>
 <code>    round_rect(x0, y0, width, height, radius, color)</code>
 <code>        draw the outline of a rectangle with rounded corners of radius with</code>
-<code>	   (x0,y0) at the bottom left</code>
+<code>		(x0,y0) at the bottom left</code>
 <code>    fill_round_rect(x0, y0, width, height, radius, color)</code>
 <code>        draw a filled rectangle with rounded corners of radius with</code>
-<code>	   (x0,y0) at the bottom left</code>
+<code>		(x0,y0) at the bottom left</code>
 <code>    text(x, y, string, size, color)</code>
 <code>        draw string starting at (x,y) of size using internal dictionary font.</code>
 <code>    drawBitmap(x, y, bitmapTuple, color, bg=0, transparent=True, Xbit=True)</code>
-<code>        draw XBitMap Files (.xbm) exported from GIMP with (x,y)</code>
-<code>	   at the bottom left, where bitmapTuple is (bitmap_array, width, height).</code>
-<code>        </code>
-<code>        </code>
-<code>class glcFont()</code>
-<code>    A class to represent a GLCD font in X-GLCD format</code>
+<code>        draw XBitMap Files (.xbm) exported from GIMP with (x,y) at the bottom</code>
+<code>		left, where bitmapTupl</code><code>e</code><code> is (bitmap_array, width, height).</code></pre><h3 class="western">
+<a name="user-content-class-glcfont"></a><a href="https://github.com/9MMMinor/RaspberryPiPicoGFX/blob/main/README.md#class-glcfont">class
+glcFont()</a></h3>
+<pre><code>    A class to represent a GLCD font in X-GLCD format</code>
 
 <code>    Font Generated by MikroElektronika GLCD Font Creator 1.2.0.0</code>
 <code>    MikroElektronika 2011 </code>
@@ -164,63 +166,62 @@ and methods</a></h2>
 
 <code>    glcFont_object = glcFont(tft, font,</code>
 <code>        monoSp=False,   # default use individual char widths. monoSp=True,</code>
-<code>	   use fixed width chars.</code>
+<code>		use fixed width chars.</code>
 <code>        eraseMode=False # default char written without background.</code>
-<code>	   eraseMode=True, write background.</code>
+<code>		eraseMode=True, write background.</code>
 <code>        )</code>
 <code>        tft: TFT_22_ILI9225 display object.</code>
-<code>        font: A bytearray of characters (each row of self.offset bytes</code>
-<code>	        represents a character).</code>
+<code>        font: A bytearray of characters (each row of self.offset bytes represents</code>
+<code>			a character).</code>
 <code>            font[0] = width: Maximum pixel width of font.</code>
 <code>            font[1] = height: Pixel height of font.</code>
 <code>            font[2] = start_char: ASCII ordinate of first character.</code>
 <code>            font[3] = number of characters in the bytearray.</code>
-<code>            font[offset] = width of individual character in pixels.</code>
-<code>Methods:</code>
-<code>    text(x, y, string, color)</code>
-<code>        prints text string beginning at (x,y). Returns x-coordinate</code>
-<code>         for next character print.</code>
+<code>            font[offset] = width of individual character in pixels.</code></pre><h3 class="western">
+<a name="user-content-methods-2"></a><a href="https://github.com/9MMMinor/RaspberryPiPicoGFX/blob/main/README.md#methods-2">Methods:</a></h3>
+<pre><code>    text(x, y, string, color)</code>
+<code>        prints text string beginning at (x,y). Returns x-coordinate for</code>
+<code>		next character print.</code>
 <code>    getFontParams()</code>
-<code>        returns tuple, [offset, width, height, bytes_per_character]</code>
-<code>	   for overall font.</code>
+<code>        returns tuple, [offset, width, height, bytes_per_character] for</code>
+<code>		overall font.</code>
 <code>    getTextWidth(string)</code>
-<code>        returns string width in pixels.</code></pre><p>
-class gfxFont(): A class to represent structures for newer
-Adafruit_GFX (1.1 and later).</p>
-<pre><code>Example fonts are included in 'Fonts' directory.</code>
-<code>To use a font in your Micropython script, import the corresponding .py</code>
-<code>file and pass Font tuple to the class __init__, e.g.</code>
-<code>    </code><code><font face="Source Code Pro"><font size="2" style="font-size: 10pt"><span style="font-style: normal"><span style="font-weight: normal">from FreeMono9pt7b import FreeMono9pt7b</span></span></font></font></code>
-<code>    <font face="Source Code Pro"><font size="2" style="font-size: 10pt"><span style="font-style: normal"><span style="font-weight: normal">fx = gfxFont(display_object, FreeMono9pt7b)</span></span></font></font></code>
+<code>        returns string width in pixels.</code></pre><h3 class="western">
+<a name="user-content-class-gfxfont"></a><a href="https://github.com/9MMMinor/RaspberryPiPicoGFX/blob/main/README.md#class-gfxfont">class
+gfxFont():</a></h3>
+<pre><code>    A class to represent structures for newer Adafruit_GFX (1.1 and later).</code>
 
-<code>bitmap = array.array('B', [...])</code>
+<code>    Example fonts are included in 'Fonts' directory.</code>
+<code>    To use a font in your Micropython script, import the corresponding .py</code>
+<code>    file and pass Font tuple to the class __init__, e.g.</code>
+<code>        from FreeMono9pt7b import FreeMono9pt7b</code>
+<code>        fx = gfxFont(display_object, FreeMono9pt7b)</code>
 
-<code>Font data stored PER GLYPH</code>
-<code>glyph = (</code>
-<code>        bitmapOffset,   # Offset into GFXfont bitmap</code>
-<code>        width,          # Bitmap dimensions in pixels</code>
-<code>        height,         # Bitmap dimensions in pixels</code>
-<code>        xAdvance,       # Distance to advance cursor (x axis)</code>
-<code>        xOffset,        # X dist from cursor pos to UL corner</code>
-<code>        yOffset)        # Y dist from cursor pos to UL corner</code>
+<code>    bitmap = array.array('B', [...])</code>
 
-<code>Data tuple for FONT AS A WHOLE</code>
-<code>Font = (</code>
-<code>        bitmap          # Bitmaps array of bytes</code>
-<code>        glyph           # Glyph array of integers</code>
-<code>        first           # ASCII extents (first char)</code>
-<code>        last            # ASCII extents (last char)</code>
-<code>        yAdvance)       # Newline distance (y axis)</code>
+<code>    Font data stored PER GLYPH</code>
+<code>    glyph = (</code>
+<code>            bitmapOffset,   # Offset into GFXfont bitmap</code>
+<code>            width,          # Bitmap dimensions in pixels</code>
+<code>            height,         # Bitmap dimensions in pixels</code>
+<code>            xAdvance,       # Distance to advance cursor (x axis)</code>
+<code>            xOffset,        # X dist from cursor pos to UL corner</code>
+<code>            yOffset)        # Y dist from cursor pos to UL corner</code>
 
-<code>Methods:</code>
-<code>    text(x, y, string, color)</code>
+<code>    Data tuple for FONT AS A WHOLE</code>
+<code>    Font = (</code>
+<code>            bitmap          # Bitmaps array of bytes</code>
+<code>            glyph           # Glyph array of integers</code>
+<code>            first           # ASCII extents (first char)</code>
+<code>            last            # ASCII extents (last char)</code>
+<code>            yAdvance)       # Newline distance (y axis)</code></pre><h3 class="western">
+<a name="user-content-methods-3"></a><a href="https://github.com/9MMMinor/RaspberryPiPicoGFX/blob/main/README.md#methods-3">Methods:</a></h3>
+<pre><code>    text(x, y, string, color)</code>
 <code>        prints text string beginning at (x,y). Returns x-coordinate for next character print.</code>
 <code>    getTextWidth(string)</code>
-<code>        returns string width in pixels.</code></pre><h2 class="western">
-About</h2>
-<p>Micropython graphics (GFX) and fonts for ILI9225 display for
-Raspberry Pi Pico 
+<code>        returns string width in pixels.</code></pre><p style="line-height: 100%; margin-bottom: 0in">
+<br/>
+
 </p>
-<p><a href="https://github.com/9MMMinor/RaspberryPiPicoGFX">https://github.com/9MMMinor/RaspberryPiPicoGFX</a></p>
 </body>
 </html>
